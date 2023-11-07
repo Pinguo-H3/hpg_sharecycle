@@ -185,7 +185,7 @@ Terms of Service: Ensure that users agree to terms of service that outline North
 [HI-FI WIREFRAMES.pdf](./HI-FI%20WIREFRAMES.pdf)
 
 ## UML Class Diagram
-![Class Diagram.png](Diagram/Class Diagram.png)
+![Diagram/Class Diagram.png](https://github.com/CS5520-Seattle-Fall23/finalproject-x-men/blob/cdceba5c83a5ec013b2eda153e1fb9e9a24bdecf/Diagram/Class%20Diagram.png)
 
 ## Gantt Diagram
 ![Gantt.png](Diagram/Gantt.png)
