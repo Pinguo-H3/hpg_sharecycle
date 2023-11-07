@@ -39,31 +39,63 @@ This application is exclusively targeted at the enrolled students of
 Northeastern University. User registration must be validated using a university email address to ensure the authenticity of users participating in all borrowing and returning activities. The transaction locations are typically set to on-campus university locations to ensure security.
 
 ### User Stories
-•	As a Borrower, I want to be able to browse the list of available items.
-•	As a Borrower, I want to view a list of items that are available for borrowing.
-I should be able to scroll through the list and see the items' names and basic information.
-•	As a Borrower, I want to be able to search for specific types of items.
-I should have the ability to enter search keywords or filter options to find the items I need.
-The search results should be relevant to the keywords I provide.
-•	As a Borrower, I want to be able to view detailed information about items and their availability.
-When I click on an item in the list, I should see a page with detailed information.
-This information should include photos, descriptions, and the item's availability status.
-•	As a Borrower, I want to be able to submit a request to borrow an item.
-After selecting an item, I should have the option to submit a request to borrow it.
-I may need to provide details such as the duration I want to borrow it for.
-•	As a Lender, I want to be able to view and manage borrowing requests.
-I should receive notifications of borrowing requests from Borrowers.
-I want to see a list of pending requests and the details of each request.
-I	should	be	able	to	approve	or	reject	requests	based	on	my availability.
-•	As a Lender, I want to be able to set the availability time and location for my items.
-I should have the option to specify when and where my items are available for borrowing.
-This helps Borrowers know when they can request to borrow my items.
-•	As a User, I want to be able to view my borrowing history.
-I should have access to a list of items I've borrowed in the past.
-This list should include details like the borrowed item, duration, and return status.
-•	As a User, I want to be able to view my lending history.
-I should have access to a list of items I've lent to others.
-This list should include details like the borrowed item, borrower's information, and lending history.
+#### •	As a Borrower, I want to be able to browse the list of available items.
+
+#### •	As a Borrower, I want to view a list of items that are available for borrowing.
+
+  I should be able to scroll through the list and see the items' names and basic information.
+
+#### •	As a Borrower, I want to be able to search for specific types of items.
+
+  I should have the ability to enter search keywords or filter options to find the items I need.
+
+  The search results should be relevant to the keywords I provide.
+
+#### •	As a Borrower, I want to be able to view detailed information about items and their availability.
+
+  When I click on an item in the list, I should see a page with detailed information.
+
+  This information should include photos, descriptions, and the item's availability status.
+
+#### •	As a Borrower, I want to be able to submit a request to borrow an item.
+
+  After selecting an item, I should have the option to submit a request to borrow it.
+
+  I may need to provide details such as the duration I want to borrow it for.
+
+#### •	As a Lender, I want to be able to view and manage borrowing requests.
+
+  I should receive notifications of borrowing requests from Borrowers.
+
+  I want to see a list of pending requests and the details of each request.
+
+  I	should	be	able	to	approve	or	reject	requests	based	on	my availability.
+
+#### •	As a Lender, I want to be able to set the availability time and location for my items.
+
+  I should have the option to specify when and where my items are available for borrowing.
+
+  This helps Borrowers know when they can request to borrow my items.
+
+#### •	As a User, I want to be able to view my borrowing history.
+
+  I should have access to a list of items I've borrowed in the past.
+
+  This list should include details like the borrowed item, duration, and return status.
+
+#### •	As a User, I want to be able to view my lending history.
+
+  I should have access to a list of items I've lent to others.
+
+  This list should include details like the borrowed item, borrower's information, and lending history.
+
+#### •	As a User, I want to be able to easily modify my personal information to keep my information up-to-date and accurate.
+
+#### •	As a user, I want to be able to review notifications from the system in a timely manner.
+
+  I should be aware of how the system or other users are affecting me or providing information. 
+  
+  For example: borrower requests for loans, results of my loan requests, return notifications, evaluation notifications, etc.
 
 
 
