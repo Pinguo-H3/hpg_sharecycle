@@ -98,6 +98,7 @@ Northeastern University. User registration must be validated using a university 
   For example: borrower requests for loans, results of my loan requests, return notifications, evaluation notifications, etc.
 
 ### App workflow(flowchart)
+![workflow](Diagram/workflow.png)
 
 
 
