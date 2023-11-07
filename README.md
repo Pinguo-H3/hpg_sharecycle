@@ -190,7 +190,8 @@ Terms of Service: Ensure that users agree to terms of service that outline North
 ## Gantt Diagram
 [Gantt.png](./Diagram/Gantt.png)
 
-
+## Traceability Matrix
+![image](https://github.com/CS5520-Seattle-Fall23/finalproject-x-men/assets/133859647/266dff0c-a122-497d-836a-3849c44b642d)
 
 
 
