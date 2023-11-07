@@ -182,8 +182,13 @@ Availability: The app should be available for use with minimal downtime.
 Terms of Service: Ensure that users agree to terms of service that outline Northeastern University community guidelines and proper conduct.
 
 ## Wireframes
+[HI-FI WIREFRAMES.pdf](./finalproject-x-men/HI-FI%20WIREFRAMES.pdf)
 
+## UML Class Diagram
+[Class Diagram.png](./finalproject-x-men/Diagram/Class%20Diagram.png)
 
+## Gantt Diagram
+[Gantt.png](./finalproject-x-men/Diagram/Gantt.png)
 
 
 
