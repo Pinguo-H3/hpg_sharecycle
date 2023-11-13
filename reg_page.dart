@@ -8,11 +8,10 @@ class RegPage extends StatefulWidget {
 }
 
 class _RegPageState extends State<RegPage> {
-
-  String username="";
-  String email="";
-  String password="";
-  String confirmPassword="";
+  String username = "";
+  String email = "";
+  String password = "";
+  String confirmPassword = "";
 
   @override
   Widget build(BuildContext context) {
@@ -30,8 +29,8 @@ class _RegPageState extends State<RegPage> {
                 labelText: "username*：",
                 labelStyle: TextStyle(color: Colors.black, fontSize: 20),
               ),
-              onChanged: (value){
-                username =value;
+              onChanged: (value) {
+                username = value;
               },
             ),
             TextField(
@@ -40,8 +39,8 @@ class _RegPageState extends State<RegPage> {
                 labelText: "email*：",
                 labelStyle: TextStyle(color: Colors.black, fontSize: 20),
               ),
-              onChanged: (value){
-                email =value;
+              onChanged: (value) {
+                email = value;
               },
             ),
             TextField(
@@ -50,8 +49,8 @@ class _RegPageState extends State<RegPage> {
                 labelText: "password*：",
                 labelStyle: TextStyle(color: Colors.black, fontSize: 20),
               ),
-              onChanged: (value){
-                password =value;
+              onChanged: (value) {
+                password = value;
               },
             ),
             TextField(
@@ -60,11 +59,13 @@ class _RegPageState extends State<RegPage> {
                 labelText: "confirm password*：",
                 labelStyle: TextStyle(color: Colors.black, fontSize: 20),
               ),
-              onChanged: (value){
-                confirmPassword =value;
+              onChanged: (value) {
+                confirmPassword = value;
               },
             ),
-            SizedBox(height: 30,),
+            SizedBox(
+              height: 30,
+            ),
             itemBtn(icon: Icons.radar, text: 'Submit'),
           ],
         ),
@@ -101,9 +102,9 @@ class _RegPageState extends State<RegPage> {
           ],
         ),
         style: ButtonStyle(
-          //去除阴影
+          //remove shadow
           elevation: MaterialStateProperty.all(0),
-          //将按钮背景设置为透明
+          //set button background to transparent
           backgroundColor: MaterialStateProperty.all(Colors.transparent),
         ),
       ),
@@ -111,36 +112,17 @@ class _RegPageState extends State<RegPage> {
   }
 
   regUser() async {
-
-    if(username==""){
+    if (username == "") {
       return;
     }
-    if(email==""){
+    if (email == "") {
       return;
     }
-    if(password==""){
+    if (password == "") {
       return;
     }
-    if(confirmPassword!=password){
+    if (confirmPassword != password) {
       return;
     }
-
-    // UserCredential createUser = await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email, password: password);
-    // var user = createUser.user;
-
-    // firebase.auth().createUserWithEmailAndPassword(email, password)
-    //     .then((userCredential) => {
-    // // 用户登录成功
-    // const user = userCredential.user;
-    //     // 可以执行其他操作，如重定向到用户的个人资料页面
-    // })
-    //     .catch((error) => {
-    // // 登录过程中出现错误
-    // const errorCode = error.code;
-    // const errorMessage = error.message;
-    // // 处理错误
-    // });
-
   }
-
 }
